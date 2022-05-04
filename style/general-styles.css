@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --PCV_500: #1b396a;
+    --WHCV_500: #f9f9f9;
+    --SCV_500: #f2b90f;
+    --font_headlines: "Open Sans", sans-serif;
+    --BCV_500: #141927;
+    --WShades-500: #F9F9F9;
+}
+
+.container1{
+    width: auto;
+    height: 100vh;
+
+}
+
+header {
+    background-color: var(--PCV_500);
+    height: 16%;
+    width: inherit;
+    display: flex;
+}
+
+main {
+    min-height: 60%;
+}
+
+footer{
+    background: var(--PCV_500);
+    color: var(--WHCV_500);
+    font-family: var(--font_headlines);
+    height: 400px;
+}
+
+
